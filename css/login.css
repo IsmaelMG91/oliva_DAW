@@ -1,0 +1,98 @@
+
+/*Estilos para login*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+  font-family: 'Quicksand', sans-serif;
+  color:#365e4c;
+}
+
+html{
+  background-color: #698c72;
+}
+
+body{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor{
+  background-color: #d9ddc6;
+  border-radius: 25px;
+  margin:auto;
+  margin-top: 10%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 300px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .logo-img{
+    width:125px;
+    margin-top: 20px;
+  }
+
+  input{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  label{
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  label input{
+    width: 90%;
+    background-color: #f0f1e4;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    font-size: 12pt;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+  }
+
+  label input:hover{
+    background-color: white;
+    box-shadow: 0px 0px 10px #365e4c;
+  }
+
+  label input:focus{
+    background-color: white;
+    box-shadow: 0px 0px 10px #365e4c;
+  }
+
+  .submit-button{
+    width: 100%;
+    background-color: #365e4c;
+    color: #f0f1e4;
+    font-weight: 500;
+    font-size: 12pt;
+    text-align: center;
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .submit-button:hover{
+    opacity: 0.75;
+    box-shadow: 0px 0px 10px #365e4c;
+  }

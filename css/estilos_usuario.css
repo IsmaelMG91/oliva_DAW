@@ -1,0 +1,172 @@
+/*Estilos generales*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Quicksand", sans-serif;
+  color: #365e4c;
+}
+
+html {
+  background-color: #698c72;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+}
+
+/*Estilos para el header*/
+.header {
+  width: 100%;
+  background-color: #365e4c;
+  height: 100px;
+  margin-bottom: 10px;
+  font-size: 13pt;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-inside {
+  width: 70%;
+  background-color: #365e4c;
+  height: 70px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-img {
+  width: 125px;
+}
+
+.welcome_user {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #f0f1e4 !important;
+}
+
+.header span,
+.header a {
+  color: #f0f1e4;
+}
+
+.header img {
+  color: #f0f1e4;
+}
+
+/*Estilos para archivos de vista*/
+
+.contenedor-finca {
+  background-color: #d9ddc6;
+  width: 70%;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.insert {
+  background-color: #d9ddc6;
+  width: 70%;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  margin: 10px;
+  border-radius: 10px;
+  gap: 10px;
+  border-spacing: 10px;
+}
+
+.table-data {
+  background-color: #f0f1e4;
+}
+
+h3 {
+  margin: auto;
+  text-decoration: underline;
+}
+
+table div {
+  background-color: #f0f1e4;
+}
+
+.td_select {
+  width: 130px;
+}
+
+.td_catastro {
+  width: 200px;
+}
+
+input[type="text"],
+select,
+input[type="date"] {
+  width: 90%;
+  background-color: #f0f1e4;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  font-size: 11pt;
+  transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+
+input[type="text"]:hover,
+select:hover,
+input[type="date"]:hover {
+  background-color: white;
+  box-shadow: 0px 0px 10px #365e4c;
+}
+
+input[type="text"]:focus,
+select:focus,
+input[type="date"]:focus {
+  background-color: white;
+  box-shadow: 0px 0px 10px #365e4c;
+}
+
+.buttons {
+  /*width: 100%;*/
+  background-color: #365e4c;
+  color: #f0f1e4;
+  font-size: 11pt;
+  text-align: center;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.buttons:hover {
+  opacity: 0.75;
+  box-shadow: 0px 0px 5px #365e4c;
+}
+
+tr {
+  transition: all 0.2s;
+}
