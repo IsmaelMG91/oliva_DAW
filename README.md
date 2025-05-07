@@ -38,5 +38,5 @@ Tecnologías utilizadas:
 - CSS
 - JavaScript
 
-La defensa del proyecto se puede ver en el siguiente <a href="https://www.youtube.com/watch?v=n9RVbEX4GQQ">enlace</a>.
+La defensa del proyecto se puede ver en el siguiente <a href="https://www.youtube.com/watch?v=n9RVbEX4GQQ" target="_blank">enlace</a>.
 En ella, queda resumido el desarrollo del proyecto, con una demostración final de la aplicación.
